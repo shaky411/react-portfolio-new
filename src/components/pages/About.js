@@ -1,5 +1,5 @@
 import React from "react";
-import myLogo from "/Users/marc/repos/react-portfolio-new/src/assets/user-mjn.jpg"
+import myLogo from "../../assets/user-mjn.jpg"
 
 function About() {
   return (
@@ -17,12 +17,12 @@ function About() {
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded hover:shadow-md text-lg">
-              Work With Me
+              className="no-underline inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-rose-600 rounded hover:shadow-md text-lg">
+              My Projects
             </a>
             <a
               href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded hover:shadow-md text-lg">
+              className="no-underline ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded hover:shadow-md text-lg">
               See My Past Work
             </a>
           </div>
