@@ -8,11 +8,11 @@ import Contact from './components/pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="react-portfolio-new">
       <div>
         <NavTabs />
         {/* Wrap Route elements in a Routes component */}
-        <Routes basename="react-portfolio-new">
+        <Routes basename="/react-portfolio-new">
           {/* Define routes using the Route component to render different page components at different paths */}
           {/* Define a default route that will render the Home component */}
           <Route path="/react-portfolio-new/" element={<Home />} />
