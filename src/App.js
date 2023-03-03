@@ -5,6 +5,8 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Blog from './components/pages/Blog';
 import Contact from './components/pages/Contact';
+import Footer from './components/pages/Footer';
+import Header from './components/header';
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
           <Route path="/react-portfolio-new/contact/*" element={<Contact />} />
         </Routes>
       </div>
+      <Footer></Footer>
     </Router>
+    
   );
 }
 
