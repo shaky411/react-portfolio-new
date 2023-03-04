@@ -8,5 +8,10 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('flowbite')
+  ],
+  content: [
+    "./node_modules/flowbite/**/*.js"
+  ]
 }
