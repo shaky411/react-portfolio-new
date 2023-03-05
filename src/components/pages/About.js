@@ -1,6 +1,7 @@
 import React from "react";
 import myLogo from "../../assets/user-mjn.jpg";
 import Button from "./style-components/button";
+import AboutCard from "../AboutCard";
 
 function About() {
   return (
@@ -13,55 +14,12 @@ function About() {
       </section>
 
       <div className="flex flex-col justify-center items-center pt-20 md:flex-row">
-        <div className="mx-4 mb-4 h-auto w-96 rounded-lg border-b-4 border-slate-400 bg-gradient-to-tl from-slate-100 to-slate-400/60 p-6">
-          <div className="flex h-full shrink flex-col justify-between">
-            <h1 className="text-4xl md:text-6xl font-black text-slate-900">
-              Currently Learning
-            </h1>
-            <p className="leading-relaxed text-slate-800">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Asperiores cupiditate facilis nemo ratione, nulla temporibus ea
-              earum maiores odit! Nobis quos architecto nemo ab mollitia?
-            </p>
-            <div className="flex">
-              <button className="rounded text-white bg-indigo-500 px-4 py-3 font-semibold shadow">
-                Read more
-              </button>
-            </div>
-          </div>
-        </div>
 
-        <div className="mx-4 mb-4 h-auto w-96 rounded-lg border-b-4 border-slate-400 bg-gradient-to-tl from-slate-100 to-slate-400/60 p-6">
-          <div className="flex h-full shrink-0 flex-wrap flex-col justify-between">
-            <h1 className="text-4xl md:text-6xl font-black text-slate-900">Future Plans</h1>
-            <p className="leading-relaxed text-slate-800">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Asperiores cupiditate facilis nemo ratione, nulla temporibus ea
-              earum maiores odit! Nobis quos architecto nemo ab mollitia?
-            </p>
-            <div className="flex">
-              <button className="rounded text-white bg-indigo-500 px-4 py-3 font-semibold shadow">
-                Read more
-              </button>
-            </div>
-          </div>
-        </div>
+        {/* Put about cards here */}
+        <AboutCard></AboutCard>
+        <AboutCard></AboutCard>
+        <AboutCard></AboutCard>
 
-        <div className="mx-4 mb-4 h-auto w-96 rounded-lg border-b-4 border-slate-400 bg-gradient-to-tl from-slate-100 to-slate-400/60 p-6">
-          <div className="flex h-full shrink flex-col justify-between">
-            <h1 className="text-4xl md:text-6xl font-black text-slate-900">What Next?</h1>
-            <p className="leading-relaxed text-slate-800">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Asperiores cupiditate facilis nemo ratione, nulla temporibus ea
-              earum maiores odit! Nobis quos architecto nemo ab mollitia?
-            </p>
-            <div className="flex">
-              <button className="rounded text-white bg-indigo-500 px-4 py-3 font-semibold shadow">
-                Read more
-              </button>
-            </div>
-          </div>
-        </div>
       </div>
 
       <section className="overflow-hidden text-neutral-700"></section>
