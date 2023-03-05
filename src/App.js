@@ -6,7 +6,7 @@ import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 import Footer from './components/pages/Footer';
-import Learn from './components/pages/Learn';
+import Gallery from './components/pages/Gallery';
 
 
 
@@ -23,7 +23,7 @@ function App() {
           <Route path="/react-portfolio-new/" element={<Home />} />
           <Route path="/react-portfolio-new/about" element={<About />} />
           <Route path="/react-portfolio-new/projects" element={<Projects />} />
-          <Route path="/react-portfolio-new/learn" element={<Learn />} />
+          <Route path="/react-portfolio-new/gallery" element={<Gallery />} />
           {/* Define a route that will have descendant routes */}
           <Route path="/react-portfolio-new/contact/*" element={<Contact />} />
         </Routes>
