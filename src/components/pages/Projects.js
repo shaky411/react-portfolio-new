@@ -16,6 +16,41 @@ function Projects() {
         vehicula sit amet at augue. Maecenas aliquam bibendum congue. Pellentesque semper, lectus
         non ullamcorper iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
       </p>
+
+      {/* Global Container */}
+      <div class="flex items-center rounded-2xl justify-center min-h-screen bg-slate-100">
+        <div class="flex flex-col p-6 m-3 space-y-10 bg-white rounded-2xl shadow-2xl md:flex-row md:space-y-0 md:space-x-10 md:m-0 md:p-16">
+          <div>
+            <img
+              src="./images/headphone.png"
+              alt=""
+              class="mx-auto duration-200 w-60 hover:scale-105"
+            />
+          </div>
+
+          <div class="flex flex-col space-y-6">
+            <div class="flex flex-col mb-4 space-y-3 text-center md:text-left">
+              <div>
+                <div class="inline-block px-3 py-1 text-sm text-white bg-black rounded-full">
+                  Free Shipping
+                </div>
+              </div>
+
+              <div class="max-w-sm text-2xl font-medium">
+                Razar Kraken Kitty Edt Gaming Headset Quartz
+              </div>
+
+              <div class="flex-col mb-4 spacy-y-3 text-center md:text-left">
+                <p class="line-through">£7.99</p>
+                <p class="text-5xl font-bold">£5.99</p>
+                <p class="text-sm font-light text-gray-400">
+                  This offer is valid until Apr 3rd or as long as stock lasts!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
