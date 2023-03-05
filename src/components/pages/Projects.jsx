@@ -1,4 +1,23 @@
 import React from "react";
+import ProjectCard from "../ProjectCard";
+
+// Props variables
+
+let title = "Project 1"
+let title1 = "Project 2"
+let title2 = "Project 3"
+
+let pill = "TailwindCSS"
+let pill1 = "JavaScript"
+let pill2 = "CSS"
+
+let projectSub = "Testimonials Grid Section"
+let projectSub1 = "Bootstrap Portfolio"
+let projectSub2 = "Coding Quiz"
+
+let description = "This was a tutorial project I learnt from TraversyMedia"
+let description1 = "This was a tutorial project I learnt from TraversyMedia"
+let description2 = "This was a tutorial project I learnt from TraversyMedia"
 
 function Projects() {
   return (
@@ -13,33 +32,14 @@ function Projects() {
         architecto maiores accusantium ad quod rem.
       </p>
 
-      {/* Global Container */}
-      <div class="flex items-center rounded-2xl justify-center min-h-screen bg-slate-100">
-        <div class="flex flex-col p-6 m-3 space-y-10 bg-white rounded-2xl shadow-2xl md:flex-row md:space-y-0 md:space-x-10 md:m-0 md:p-16">
-          <div class="flex flex-col space-y-6">
-            <div class="flex justify-center items-center flex-col mb-4 space-y-3 text-center md:text-left">
-              <div>
-                <div class="inline-block px-3 py-1 text-sm text-black font-bold bg-yellow-500 rounded-full shadow-md">
-                  JavaScript
-                </div>
-              </div>
-
-              <div class="max-w-sm text-2xl font-medium">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus,
-                in?
-              </div>
-
-              <div class="flex-col mb-4 spacy-y-3 text-center md:text-left">
-                <p class="text-5xl font-bold">Project 1</p>
-                <p class="text-sm font-light text-gray-400">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Itaque, similique!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+    {/* Project Cards */}
+      <div class="flex flex-wrap items-center rounded-2xl justify-center min-h-screen bg-slate-100">
+      <ProjectCard pill={pill} projectSub={projectSub} description={description} title={title}/>
+      <ProjectCard pill={pill1} projectSub={projectSub1} description={description1} title={title1}/>
+      <ProjectCard pill={pill2} projectSub={projectSub2} description={description2} title={title2}/>
       </div>
+
+      
     </div>
   );
 }
