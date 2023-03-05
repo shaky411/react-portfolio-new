@@ -22,6 +22,7 @@ let description2 = "This was a tutorial project I learnt from TraversyMedia"
 function Projects() {
   return (
     <div className="m-5">
+      <h5></h5>
       <h1 className="mb-3">My Projects</h1>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
@@ -33,7 +34,7 @@ function Projects() {
       </p>
 
     {/* Project Cards */}
-      <div class="flex flex-wrap items-center rounded-2xl justify-center min-h-screen bg-slate-100">
+      <div className="flex flex-wrap items-center rounded-2xl justify-center min-h-screen bg-slate-100">
       <ProjectCard pill={pill} projectSub={projectSub} description={description} title={title}/>
       <ProjectCard pill={pill1} projectSub={projectSub1} description={description1} title={title1}/>
       <ProjectCard pill={pill2} projectSub={projectSub2} description={description2} title={title2}/>
