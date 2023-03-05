@@ -5,7 +5,7 @@ function AboutCard() {
 return (
 
     <div>
-        <div className="mx-4 mb-4 h-auto w-96 rounded-lg border-b-4 border-slate-400 bg-gradient-to-tl from-slate-100 to-slate-400/60 p-6">
+        <div className="mx-4 mb-4 h-auto w-96 rounded-lg border-b-4 border-slate-400 bg-gradient-to-tl from-slate-100 to-slate-200/60 p-6">
           <div className="flex h-full shrink flex-col justify-between">
             <h1 className="text-4xl md:text-6xl font-black text-slate-900">
               Currently Learning
