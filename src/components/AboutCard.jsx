@@ -17,7 +17,7 @@ return (
             </p>
             <div className="flex">
               <button className="rounded text-white bg-indigo-500 hover:bg-indigo-800 px-4 py-3 font-semibold shadow">
-                Read more
+                Learn more
               </button>
             </div>
           </div>
