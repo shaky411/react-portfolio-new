@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Product-Card",
     "tech": "CSS",
-    "description": "Frontend Mentor project",
+    "description": "Product card challenge taken from Frontend Mentor",
     "image": "https://raw.githubusercontent.com/shaky411/Product-Card/master/images/Project_1.png",
     "github": "https://github.com/shaky411/Product-Card.git"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "Bootstrap-Portfolio",
     "tech": "Bootstrap",
-    "description": "Build a portfolio using Bootstrap",
+    "description": "Personal portfolio built using Bootstrap and CSS Grid",
     "image": "https://raw.githubusercontent.com/shaky411/Bootstrap-Portfolio/master/images/Screenshots/Project_3.png",
     "github": "https://github.com/shaky411/Bootstrap-Portfolio.git"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "name": "F1 Coding Quiz",
     "tech": "Javascript",
-    "description": "Create an F1 quiz using JavaScript",
+    "description": "F1 quiz challenge built using JavaScript and CSS",
     "image": "https://raw.githubusercontent.com/shaky411/F1-Quiz/master/assets/Project_4.png",
     "github": "https://github.com/shaky411/F1-Quiz.git"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "name": "Password Generator",
     "tech": "Javascript",
-    "description": "Create a password generator using Javascript",
+    "description": "Password generator application built using Javascript",
     "image": "https://raw.githubusercontent.com/shaky411/Password-Generator/master/images/Project_5.png",
     "github": "https://github.com/shaky411/Password-Generator.git"
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "name": "Food App",
     "tech": "Javascript | UIKit",
-    "description": "Recipe search application",
+    "description": "Recipe food search application buit wih UIKit and Javascript",
     "image": "https://raw.githubusercontent.com/shaky411/Project-1/main/assets/screen%20capture/Project_6.png",
     "github": "https://github.com/shaky411/Project-1.git",
     "pill": "TailwindCSS",

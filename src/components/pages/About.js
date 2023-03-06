@@ -20,7 +20,7 @@ function About() {
   return (
     <section id="about">
       <h5></h5>
-      <section id="buttons" className="flex flex-col justify-center text-center pt-2 m-5">
+      <section id="buttons" className="flex flex-col justify-center text-center pt-2">
         <h1 className="mb-4">About Me!</h1>
         <h2 className="title-font sm:text-3xl text-2xl mb-5 mx-10 md:mx-0 font-normal text-black">
           Find out more about my journey!
@@ -31,7 +31,7 @@ function About() {
       <div className="flex flex-col justify-center items-center md:flex-row">
 
         {/* Put about cards here */}
-        <div className="flex flex-wrap items-center rounded-2xl justify-center p-5 bg-slate-100">
+        <div className="flex flex-wrap items-center rounded-2xl justify-center mx-5 bg-slate-100">
         <AboutCard subTitle={subTitle} title={title} link={link} comment={comment} />
         <AboutCard subTitle={subTitle1} title={title1} comment={comment1} />
         <AboutCard subTitle={subTitle2} title={title2} />
