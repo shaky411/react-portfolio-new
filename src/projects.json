@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "name": "Console-Finances",
-    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "description": "Fry Cook",
-    "github": "https://github.com/shaky411/Console-Finances.git"
+    "name": "Testimonials-Grid",
+    "image": "https://raw.githubusercontent.com/shaky411/Testimonials-Grid-Section/master/assets/images/Project_1.png",
+    "description": "This was a challenge from Frontend Mentor",
+    "github": "https://github.com/shaky411/Testimonials-Grid-Section.git"
   },
   {
     "id": 2,
