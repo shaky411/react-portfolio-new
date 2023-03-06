@@ -1,8 +1,24 @@
-import React from "react";
+import { useRef } from "react";
+import emailjs from '@emailjs/browser';
 import { Link, Route, Routes } from "react-router-dom";
 import About from "./About";
 
 function Contact(props) {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_nc0xdhs', 'template_jzol5fe', form.current,
+     '5X1E7ys2H32Z3dvHZ')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  };
+
   return (
     <div className="m-5">
       <div className="container my-24 px-6 mx-auto">
@@ -15,7 +31,7 @@ function Contact(props) {
 
           <div className="flex flex-wrap">
             <div className="grow-0 shrink-0 basis-auto mb-12 lg:mb-0 w-full lg:w-5/12 px-3 lg:px-6">
-              <form>
+              <form ref={form} onSubmit={sendEmail}>
                 <div className="form-group mb-6">
                   <input
                     type="text"
@@ -35,6 +51,7 @@ function Contact(props) {
             focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                     id="exampleInput7"
                     placeholder="Name"
+                    name='user_name' required
                   />
                 </div>
                 <div className="form-group mb-6">
@@ -56,6 +73,7 @@ function Contact(props) {
             focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                     id="exampleInput8"
                     placeholder="Email address"
+                    name='user_email' required
                   />
                 </div>
                 <div className="form-group mb-6">
@@ -80,22 +98,10 @@ function Contact(props) {
                     id="exampleFormControlTextarea13"
                     rows="3"
                     placeholder="Message"
+                    name="message" required
                   ></textarea>
                 </div>
-                <div className="form-group form-check text-center mb-6">
-                  <input
-                    type="checkbox"
-                    className="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer"
-                    id="exampleCheck87"
-                    checked
-                  />
-                  <label
-                    className="form-check-label inline-block text-gray-800"
-                    for="exampleCheck87"
-                  >
-                    Send me a copy of this message
-                  </label>
-                </div>
+                
                 <button
                   type="submit"
                   className="
@@ -128,23 +134,27 @@ function Contact(props) {
                   <div className="flex items-start">
                     <div className="shrink-0">
                       <div className="p-4 bg-slate-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-                        <i class="fa-brands fa-github text-white text-2xl"></i>
+                        <i className="fa-brands fa-github text-white text-2xl"></i>
                       </div>
                     </div>
                     <div className="grow ml-6">
                       <p className="font-bold mb-1">Github</p>
-                      <a href="https://github.com/shaky411" target="_blank" className="text-slate-400 no-underline">Github Profile</a>
+                      <a
+                        href="https://github.com/shaky411"
+                        target="_blank"
+                        className="text-slate-400 no-underline"
+                      >
+                        Github Profile
+                      </a>
                     </div>
                   </div>
                 </div>
-
-                
 
                 <div className="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
                   <div className="flex items-start">
                     <div className="shrink-0">
                       <div className="p-4 bg-pink-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-                        <i class="fa-solid fa-envelope text-white text-2xl"></i>
+                        <i className="fa-solid fa-envelope text-white text-2xl"></i>
                       </div>
                     </div>
                     <div className="grow ml-6">
@@ -158,7 +168,7 @@ function Contact(props) {
                   <div className="flex align-start">
                     <div className="shrink-0">
                       <div className="p-4 bg-orange-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-                        <i class="fa-solid fa-phone text-white text-2xl"></i>
+                        <i className="fa-solid fa-phone text-white text-2xl"></i>
                       </div>
                     </div>
                     <div className="grow ml-6">
@@ -171,12 +181,18 @@ function Contact(props) {
                   <div className="flex align-start">
                     <div className="shrink-0">
                       <div className="p-4 bg-blue-500 hover:bg-blue-800 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-                        <i class="fa-brands fa-linkedin text-white text-2xl"></i>
+                        <i className="fa-brands fa-linkedin text-white text-2xl"></i>
                       </div>
                     </div>
                     <div className="grow ml-6">
                       <p className="font-bold mb-1">LinkedIn</p>
-                      <a href="https://www.linkedin.com/in/marcnorris1984" target="_blank" className="text-slate-400 no-underline">LinkedIn Profile</a>
+                      <a
+                        href="https://www.linkedin.com/in/marcnorris1984"
+                        target="_blank"
+                        className="text-slate-400 no-underline"
+                      >
+                        LinkedIn Profile
+                      </a>
                     </div>
                   </div>
                 </div>
