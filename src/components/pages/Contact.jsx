@@ -4,7 +4,6 @@ import { Link, Route, Routes } from "react-router-dom";
 import About from "./About";
 
 function Contact(props) {
-
   // the code below handles the contact form
   const form = useRef();
 
@@ -21,11 +20,11 @@ function Contact(props) {
       .then(
         (result) => {
           console.log(result.text);
-          alert("Message sent!")
+          alert("Message sent!");
         },
         (error) => {
           console.log(error.text);
-          alert("message failed to send!")
+          alert("message failed to send!");
         }
       );
     e.target.reset();
@@ -44,31 +43,53 @@ function Contact(props) {
           <div className="flex flex-wrap">
             <div className="grow-0 shrink-0 basis-auto mb-12 lg:mb-0 w-full lg:w-5/12 px-3 lg:px-6">
               {/* New form here! */}
-
               <section>
-                <div className="container bg-slate-100 p-4 rounded-xl shadow-md border">
-                  <h2 className="text-center text-slate-500">Get in touch</h2>
-                  <form ref={form} onSubmit={sendEmail} className="flex flex-col items-center justify-center">
-                    <input className="bg-white m-2 p-2 rounded shadow-inner border"
+                <div>
+                <div className="absolute top-50 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-40 animate-blob"></div>
+                <div className="absolute top-40 -left-1 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-40 animate-blob animation-delay-2000"></div>
+                <div className="absolute top-30 left-20 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-40 animate-blob animation-delay-4000"></div>
+                </div>
+                <div className="container bg-slate-100 opacity-70 p-4 rounded-xl shadow-md border relative">
+                  <h2 className="text-center text-slate-900">Get in touch</h2>
+                  <form
+                    ref={form}
+                    onSubmit={sendEmail}
+                    className="flex flex-col items-center justify-center"
+                  >
+                    <input
+                      className="bg-white m-2 p-2 rounded shadow-inner border"
                       type="text"
                       placeholder="Full Name"
                       name="user_name"
                       required
                     />
-                    <input className="bg-white m-2 p-2 rounded shadow-inner border"
+                    <input
+                      className="bg-white m-2 p-2 rounded shadow-inner border"
                       type="email"
                       placeholder="Email"
                       name="user_email"
                       required
                     />
-                    <input className="bg-white m-2 p-2 rounded shadow-inner border"
+                    <input
+                      className="bg-white m-2 p-2 rounded shadow-inner border"
                       type="text"
                       placeholder="Subject"
                       name="subject"
                       required
                     />
-                    <textarea name="message" placeholder="add message here..." cols="30" rows="10" className="bg-white m-2 p-2 rounded shadow-inner border"></textarea>
-                    <button type="submit" className="bg-indigo-500 hover:bg-indigo-700 p-2 text-white rounded shadow mt-2">Send Message</button>
+                    <textarea
+                      name="message"
+                      placeholder="add message here..."
+                      cols="30"
+                      rows="10"
+                      className="bg-white m-2 p-2 rounded shadow-inner border"
+                    ></textarea>
+                    <button
+                      type="submit"
+                      className="bg-indigo-500 hover:bg-indigo-700 p-2 text-white rounded shadow mt-2"
+                    >
+                      Send Message
+                    </button>
                   </form>
                 </div>
               </section>

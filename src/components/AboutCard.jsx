@@ -15,6 +15,7 @@ function AboutCard(props) {
 return (
 
   <div className="flex-col p-5 m-3 w-1/1 lg:w-1/3 xl:w-1/3 2xl:w-1/3 space-y-10 bg-white rounded-2xl shadow-2xl md:flex-col md:space-y-0 md:space-x-10 md:m-0 md:p-16">
+    
   <div className="flex flex-col md:flex-col lg:flex-col space-y-6">
     <div className="flex justify-center items-center flex-col space-y-3 text-center md:text-left">
       {/* <img src={pLogo1} alt="test" className="w-1/1 shadow-md rounded-m" /> */}
