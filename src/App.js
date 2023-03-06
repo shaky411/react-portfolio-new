@@ -14,7 +14,7 @@ import Gallery from './components/pages/Gallery';
 function App() {
   return (
     <Router>
-      <div class="min-h-screen">
+      <div className="min-h-screen">
         <Header />
         {/* Wrap Route elements in a Routes component */}
         <Routes basename="/react-portfolio-new">
