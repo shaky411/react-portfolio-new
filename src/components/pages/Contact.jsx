@@ -46,7 +46,7 @@ function Contact(props) {
               {/* New form here! */}
 
               <section>
-                <div className="container bg-slate-100 p-4 rounded-xl shadow-md">
+                <div className="container bg-slate-100 p-4 rounded-xl shadow-md border">
                   <h2 className="text-center text-slate-500">Get in touch</h2>
                   <form ref={form} onSubmit={sendEmail} className="flex flex-col items-center justify-center">
                     <input className="bg-white m-2 p-2 rounded shadow-inner border"
