@@ -4,25 +4,35 @@ import React from "react";
 function AboutCard() {
 return (
 
-    <div>
-        <div className="mx-4 mb-4 h-auto w-96 rounded-lg border-b-4 border-slate-400 bg-gradient-to-tl from-slate-100 to-slate-200/60 p-6">
-          <div className="flex h-full shrink flex-col justify-between">
-            <h1 className="text-4xl md:text-6xl font-black text-slate-900">
-              Currently Learning
-            </h1>
-            <p className="leading-relaxed text-slate-800">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Asperiores cupiditate facilis nemo ratione, nulla temporibus ea
-              earum maiores odit! Nobis quos architecto nemo ab mollitia?
-            </p>
-            <div className="flex">
-              <button className="rounded text-white bg-indigo-500 hover:bg-indigo-800 px-4 py-3 font-semibold shadow">
-                Learn more
-              </button>
-            </div>
+  <div className="flex-col p-5 m-3 w-1/1 md:w-1/2 lg:w-1/3 xl:w-1/4 space-y-10 bg-white rounded-2xl shadow-2xl md:flex-row md:space-y-0 md:space-x-10 md:m-0 md:p-16">
+  <div className="flex flex-col md:flex-col lg:flex-col space-y-6">
+    <div className="flex justify-center items-center flex-col space-y-3 text-center md:text-left">
+      {/* <img src={pLogo1} alt="test" className="w-1/1 shadow-md rounded-m" /> */}
+
+      <div className="max-w-sm mt-4 text-2xl font-medium">
+        Current
+      </div>
+
+      <div className="flex-col mb-4 spacy-y-3 text-center md:text-left">
+        <p className="text-5xl font-bold">About me</p>
+        <p className="text-sm font-light text-gray-400">This is all about me</p>
+        <div>
+          <div className="inline-block px-3 mt-2 py-1 text-sm text-white font-bold bg-slate-500 rounded-full shadow-md">
+            JavaScript
+            
           </div>
+          <div>
+              <a
+                href="https://github.com/shaky411"
+                target="_blank"
+                className="text-black"
+              ><i className="fa-brands fa-square-github text-2xl mt-2 hover:text-indigo-500"></i></a>
+            </div>
         </div>
+      </div>
     </div>
+  </div>
+</div>
 
 )
 }
