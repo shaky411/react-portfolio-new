@@ -1,16 +1,16 @@
 import React from "react";
 import pLogo1 from "../../src/assets/Project_1.png";
 
-function showBrowserWidth() {
-  const width =
-    window.innerWidth ||
-    document.documentElement.clientWidth ||
-    document.body.clientWidth
+// function showBrowserWidth() {
+//   const width =
+//     window.innerWidth ||
+//     document.documentElement.clientWidth ||
+//     document.body.clientWidth
 
-  document.querySelector('h5').innerHTML = `Width: ${width}`
-}
-window.onload = showBrowserWidth
-window.onresize = showBrowserWidth
+//   document.querySelector('h5').innerHTML = `Width: ${width}`
+// }
+// window.onload = showBrowserWidth
+// window.onresize = showBrowserWidth
 
 export default function ProjectCard(props) {
   return (
@@ -19,18 +19,14 @@ export default function ProjectCard(props) {
         <div className="flex justify-center items-center flex-col space-y-3 text-center md:text-left">
           <img src={props.image} alt="test" className="w-1/1 shadow rounded" />
 
-          <div className="max-w-sm mt-4 text-2xl font-medium">
+          <div className="max-w-sm mt-4 text-xl font-medium">
             {props.tech}
           </div>
 
           <div className="flex-col mb-4 spacy-y-3 text-center md:text-left">
-            <p className="text-5xl font-bold">{props.name}</p>
+            <p className="text-3xl font-bold">{props.name}</p>
             <p className="text-sm font-light text-gray-400">{props.description}</p>
             <div>
-              <div className="inline-block px-3 mt-2 py-1 text-sm text-white font-bold bg-slate-500 rounded-full shadow-md">
-                {props.pill}
-                
-              </div>
               <div>
                   <a
                     href={props.github}
