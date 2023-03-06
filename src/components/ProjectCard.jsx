@@ -24,7 +24,7 @@ export default function ProjectCard(props) {
           </div>
 
           <div className="flex-col mb-4 spacy-y-3 text-center md:text-left">
-            <p className="text-3xl font-bold">{props.name}</p>
+            <p className="text-2xl font-bold">{props.name}</p>
             <p className="text-sm font-light text-gray-400">{props.description}</p>
             <div>
               <div>
