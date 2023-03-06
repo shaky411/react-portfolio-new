@@ -45,7 +45,9 @@
     "tech": "Javascript | UIKit",
     "description": "Recipe search application",
     "image": "https://raw.githubusercontent.com/shaky411/Project-1/main/assets/screen%20capture/Project_6.png",
-    "github": "https://github.com/shaky411/Project-1.git"
+    "github": "https://github.com/shaky411/Project-1.git",
+    "pill": "TailwindCSS",
+    "pillColor": "bg-blue-500"
   }
   
 ]
