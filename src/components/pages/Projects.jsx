@@ -1,23 +1,12 @@
 import React from "react";
 import ProjectCard from "../ProjectCard";
+import projects from "../../projects.json"
 
 // Props variables
-
-let title = "Project 1"
-let title1 = "Project 2"
-let title2 = "Project 3"
 
 let pill = "TailwindCSS"
 let pill1 = "JavaScript"
 let pill2 = "CSS"
-
-let projectSub = "Testimonials Grid Section"
-let projectSub1 = "Bootstrap Portfolio"
-let projectSub2 = "Coding Quiz"
-
-let description = "This was a tutorial project I learnt from TraversyMedia"
-let description1 = "This was a tutorial project I learnt from TraversyMedia"
-let description2 = "This was a tutorial project I learnt from TraversyMedia"
 
 function Projects() {
   return (
@@ -32,10 +21,15 @@ function Projects() {
       </section>
 
     {/* Project Cards */}
-      <div className="flex flex-wrap items-center rounded-2xl justify-center p-5 bg-slate-100">
-      <ProjectCard pill={pill} projectSub={projectSub} description={description} title={title}/>
-      <ProjectCard pill={pill1} projectSub={projectSub1} description={description1} title={title1}/>
-      <ProjectCard pill={pill2} projectSub={projectSub2} description={description2} title={title2}/>
+      <div className="flex flex-wrap items-center rounded-2xl justify-center p-2 bg-slate-100">
+      <ProjectCard pill={pill} tech={projects[0].tech} description={projects[0].description} image={projects[0].image} name={projects[0].name} github={projects[0].github}/>
+      <ProjectCard pill={pill} tech={projects[1].tech} description={projects[1].description} image={projects[1].image} name={projects[1].name} github={projects[1].github}/>
+      <ProjectCard pill={pill} tech={projects[2].tech} description={projects[2].description} image={projects[2].image} name={projects[2].name} github={projects[2].github}/>
+      <ProjectCard pill={pill} tech={projects[3].tech} description={projects[3].description} image={projects[3].image} name={projects[3].name} github={projects[3].github}/>
+      <ProjectCard pill={pill} tech={projects[4].tech} description={projects[4].description} image={projects[4].image} name={projects[4].name} github={projects[4].github}/>
+      <ProjectCard pill={pill} tech={projects[5].tech} description={projects[5].description} image={projects[5].image} name={projects[5].name} github={projects[5].github}/>
+      
+      
       </div>
     </div>
   );
