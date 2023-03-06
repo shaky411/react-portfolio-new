@@ -2,6 +2,7 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Link, Route, Routes } from "react-router-dom";
 import About from "./About";
+import CV from "../../assets/Sample_CV.pdf"
 
 function Contact(props) {
   // the code below handles the contact form
@@ -44,6 +45,7 @@ function Contact(props) {
             <div className="grow-0 shrink-0 basis-auto mb-12 lg:mb-0 w-full lg:w-5/12 px-3 lg:px-6">
               {/* New form here! */}
               <section>
+                {/* Blob effect */}
                 <div>
                 <div className="absolute top-50 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-40 animate-blob"></div>
                 <div className="absolute top-40 -left-1 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-40 animate-blob animation-delay-2000"></div>
@@ -97,6 +99,7 @@ function Contact(props) {
 
             <div className="grow-0 shrink-0 basis-auto w-full lg:w-7/12">
               <div className="flex flex-wrap">
+
                 <div className="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
                   <div className="flex items-start">
                     <div className="shrink-0">
@@ -120,17 +123,40 @@ function Contact(props) {
                 <div className="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
                   <div className="flex items-start">
                     <div className="shrink-0">
+                      <div className="p-4 bg-slate-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                        <i className="fa-brands fa-github text-white text-2xl"></i>
+                      </div>
+                    </div>
+                    <div className="grow ml-6">
+                      <p className="font-bold mb-1">Download my CV</p>
+                      <a
+                        href={CV} download
+                        target="_blank"
+                        className="text-slate-400 no-underline"
+                      >
+                        CV
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+
+                <div className="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
+                  <div className="flex items-start">
+                    <div className="shrink-0">
                       <div className="p-4 bg-pink-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
                         <i className="fa-solid fa-envelope text-white text-2xl"></i>
                       </div>
                     </div>
                     <div className="grow ml-6">
                       <p className="font-bold mb-1">Email</p>
-                      <p className="text-gray-500">email@example.com</p>
-                      <p className="text-gray-500">+1 234-567-89</p>
+                      <a 
+                      href="mailto:shaky411@googlemail.com.com"
+                      className="text-gray-500 no-underline">Email me</a>
                     </div>
                   </div>
                 </div>
+                
                 <div className="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
                   <div className="flex align-start">
                     <div className="shrink-0">
@@ -144,6 +170,7 @@ function Contact(props) {
                     </div>
                   </div>
                 </div>
+
                 <div className="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
                   <div className="flex align-start">
                     <div className="shrink-0">
