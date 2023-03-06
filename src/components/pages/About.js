@@ -10,6 +10,8 @@ let subTitle2 = "What's Next?"
 let title = "Marc Norris"
 let title1 = "Technologies"
 let title2 = "Ambitions"
+let comment = "Born & raised in Bristol UK and the place I still call home today."
+let comment1 = "These are the technologies I am currently learning"
 
 let link = "https://github.com/shaky411"
 
@@ -26,12 +28,15 @@ function About() {
         </h2>
       </section>
 
-      <div className="flex flex-col justify-center items-center pt-20 md:flex-row">
+      <div className="flex flex-col justify-center items-center md:flex-row">
 
         {/* Put about cards here */}
-        <AboutCard subTitle={subTitle} title={title} link={link} />
-        <AboutCard subTitle={subTitle1} title={title1} />
+        <div className="flex flex-wrap items-center rounded-2xl justify-center p-5 bg-slate-100">
+        <AboutCard subTitle={subTitle} title={title} link={link} comment={comment} />
+        <AboutCard subTitle={subTitle1} title={title1} comment={comment1} />
         <AboutCard subTitle={subTitle2} title={title2} />
+        </div>
+        
 
       </div>
 
