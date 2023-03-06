@@ -1,5 +1,15 @@
 import React from "react";
 
+function showBrowserWidth() {
+  const width =
+    window.innerWidth ||
+    document.documentElement.clientWidth ||
+    document.body.clientWidth
+
+  document.querySelector('h5').innerHTML = `Width: ${width}`
+}
+window.onload = showBrowserWidth
+window.onresize = showBrowserWidth
 
 function AboutCard(props) {
 return (

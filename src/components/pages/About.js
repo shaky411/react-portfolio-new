@@ -17,11 +17,13 @@ let link = "https://github.com/shaky411"
 function About() {
   return (
     <section id="about">
-      <section id="buttons" className="flex justify-center text-center pt-10">
-        <h1 className="title-font sm:text-4xl text-3xl mb-4 mx-10 md:mx-0 font-medium text-black">
+      <h5></h5>
+      <section id="buttons" className="flex flex-col justify-center text-center pt-2 m-5">
+        <h1 className="mb-4">About Me!</h1>
+        <h2 className="title-font sm:text-3xl text-2xl mb-5 mx-10 md:mx-0 font-normal text-black">
           Find out more about my journey!
           <br className="hidden lg:inline-block" />What I'm learning and where I plan to go next.
-        </h1>
+        </h2>
       </section>
 
       <div className="flex flex-col justify-center items-center pt-20 md:flex-row">

@@ -23,24 +23,20 @@ function Projects() {
   return (
     <div className="m-5">
       <h5></h5>
-      <h1 className="mb-3">My Projects</h1>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
-        iure dolores at esse dignissimos suscipit saepe dolore illo similique
-        non distinctio quis natus consequatur atque tenetur accusamus dolor. Sed
-        exercitationem delectus, totam repudiandae eveniet possimus enim
-        doloremque nisi cum? Repudiandae earum voluptatum ratione sunt
-        architecto maiores accusantium ad quod rem.
-      </p>
+      <section id="buttons" className="flex flex-col justify-center text-center pt-2">
+        <h1 className="mb-4">My Projects</h1>
+        <h2 className="title-font sm:text-3xl text-2xl mb-5 mx-10 md:mx-0 font-normal text-black">
+          Check out my current & past projects below!
+          <br className="hidden lg:inline-block" />Click on the Github links to learn more.
+        </h2>
+      </section>
 
     {/* Project Cards */}
-      <div className="flex flex-wrap items-center rounded-2xl justify-center min-h-screen bg-slate-100">
+      <div className="flex flex-wrap items-center rounded-2xl justify-center p-5 bg-slate-100">
       <ProjectCard pill={pill} projectSub={projectSub} description={description} title={title}/>
       <ProjectCard pill={pill1} projectSub={projectSub1} description={description1} title={title1}/>
       <ProjectCard pill={pill2} projectSub={projectSub2} description={description2} title={title2}/>
       </div>
-
-      
     </div>
   );
 }
