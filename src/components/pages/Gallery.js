@@ -57,7 +57,7 @@ function Gallery() {
               </div>
             </div>
             <div className="flex w-1/1 md:w-1/3 flex-wrap hover:opacity-70">
-              <div clasName="w-full p-1 md:p-2">
+              <div className="w-full p-1 md:p-2">
                 <img
                   alt="gallery"
                   className="block h-full w-full rounded-lg object-cover object-center"

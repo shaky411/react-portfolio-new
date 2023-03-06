@@ -1,11 +1,20 @@
 import React from "react";
 import myLogo from "../../assets/user-mjn.jpg";
+import blob from "../../assets/blob.png"
 
 function Home() {
   return (
     <section id="about">
-      
+
+{/* Animated blob effect */}
+<div className="m-10 relative w-full max-w-lg">
+  <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob"></div>
+  <div className="absolute top-0 -right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-2000"></div>
+  <div className="absolute -bottom-80 left-20 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-4000"></div>
+</div>
+
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
+       
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 mx-10 md:mx-0 font-medium text-black">
             Hi, I'm Marc.
