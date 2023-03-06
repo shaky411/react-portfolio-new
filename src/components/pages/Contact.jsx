@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 import { Link, Route, Routes } from "react-router-dom";
 import About from "./About";
 
@@ -9,14 +9,22 @@ function Contact(props) {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_nc0xdhs', 'template_jzol5fe', form.current,
-     '5X1E7ys2H32Z3dvHZ')
-      .then((result) => {
+    emailjs
+      .sendForm(
+        "service_nc0xdhs",
+        "template_9tvqkow",
+        form.current,
+        "5X1E7ys2H32Z3dvHZ"
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-      }, (error) => {
+        },
+        (error) => {
           console.log(error.text);
-      });
-      e.target.reset()
+        }
+      );
+    e.target.reset();
   };
 
   return (
@@ -31,9 +39,35 @@ function Contact(props) {
 
           <div className="flex flex-wrap">
             <div className="grow-0 shrink-0 basis-auto mb-12 lg:mb-0 w-full lg:w-5/12 px-3 lg:px-6">
-              
-            {/* New form here! */}
+              {/* New form here! */}
 
+              <section>
+                <div className="container bg-slate-100 p-4 rounded-xl">
+                  <h2 className="text-center">Get in touch</h2>
+                  <form ref={form} onSubmit={sendEmail} className="flex flex-col items-center justify-center">
+                    <input className="bg-white m-2 p-2 rounded shadow-inner border"
+                      type="text"
+                      placeholder="Full Name"
+                      name="user_name"
+                      required
+                    />
+                    <input className="bg-white m-2 p-2 rounded shadow-inner border"
+                      type="email"
+                      placeholder="Email"
+                      name="user_email"
+                      required
+                    />
+                    <input className="bg-white m-2 p-2 rounded shadow-inner border"
+                      type="text"
+                      placeholder="Subject"
+                      name="subject"
+                      required
+                    />
+                    <textarea name="message" cols="30" rows="10" className="bg-white m-2 p-2 rounded shadow-inner border"></textarea>
+                    <button type="submit" className="bg-indigo-500 hover:bg-indigo-700 p-2 text-white rounded shadow mt-2">Send Message</button>
+                  </form>
+                </div>
+              </section>
             </div>
 
             <div className="grow-0 shrink-0 basis-auto w-full lg:w-7/12">
