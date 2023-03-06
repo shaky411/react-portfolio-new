@@ -23,6 +23,8 @@ return (
         {props.subTitle}
       </div>
 
+      
+
       <div className="flex-col mb-4 spacy-y-3 text-center md:text-left p-3">
         <p className="text-5xl font-bold">{props.title}</p>
         <p className="text-sm font-light text-gray-400">{props.comment}</p>
