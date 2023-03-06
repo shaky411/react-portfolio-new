@@ -3,6 +3,17 @@ import myLogo from "../../assets/user-mjn.jpg";
 import Button from "./style-components/button";
 import AboutCard from "../AboutCard";
 
+let subTitle = "Who am I?"
+let subTitle1 = "Currently Learning"
+let subTitle2 = "What's Next?"
+
+let title = "Marc Norris"
+let title1 = "Technologies"
+let title2 = "Ambitions"
+
+let link = "https://github.com/shaky411"
+
+
 function About() {
   return (
     <section id="about">
@@ -16,9 +27,9 @@ function About() {
       <div className="flex flex-col justify-center items-center pt-20 md:flex-row">
 
         {/* Put about cards here */}
-        <AboutCard></AboutCard>
-        <AboutCard></AboutCard>
-        <AboutCard></AboutCard>
+        <AboutCard subTitle={subTitle} title={title} link={link} />
+        <AboutCard subTitle={subTitle1} title={title1} />
+        <AboutCard subTitle={subTitle2} title={title2} />
 
       </div>
 
