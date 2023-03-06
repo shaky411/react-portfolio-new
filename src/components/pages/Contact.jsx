@@ -4,6 +4,8 @@ import { Link, Route, Routes } from "react-router-dom";
 import About from "./About";
 
 function Contact(props) {
+
+  // the code below handles the contact form
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -19,9 +21,11 @@ function Contact(props) {
       .then(
         (result) => {
           console.log(result.text);
+          alert("Message sent!")
         },
         (error) => {
           console.log(error.text);
+          alert("message failed to send!")
         }
       );
     e.target.reset();
@@ -42,8 +46,8 @@ function Contact(props) {
               {/* New form here! */}
 
               <section>
-                <div className="container bg-slate-100 p-4 rounded-xl">
-                  <h2 className="text-center">Get in touch</h2>
+                <div className="container bg-slate-100 p-4 rounded-xl shadow-md">
+                  <h2 className="text-center text-slate-500">Get in touch</h2>
                   <form ref={form} onSubmit={sendEmail} className="flex flex-col items-center justify-center">
                     <input className="bg-white m-2 p-2 rounded shadow-inner border"
                       type="text"
@@ -63,7 +67,7 @@ function Contact(props) {
                       name="subject"
                       required
                     />
-                    <textarea name="message" cols="30" rows="10" className="bg-white m-2 p-2 rounded shadow-inner border"></textarea>
+                    <textarea name="message" placeholder="add message here..." cols="30" rows="10" className="bg-white m-2 p-2 rounded shadow-inner border"></textarea>
                     <button type="submit" className="bg-indigo-500 hover:bg-indigo-700 p-2 text-white rounded shadow mt-2">Send Message</button>
                   </form>
                 </div>
