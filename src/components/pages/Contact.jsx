@@ -112,7 +112,7 @@ function Contact(props) {
                       <a
                         href="https://github.com/shaky411"
                         target="_blank"
-                        className="text-slate-400 no-underline"
+                        className="text-cyan-500 no-underline"
                       >
                         Github Profile
                       </a>
@@ -123,8 +123,8 @@ function Contact(props) {
                 <div className="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
                   <div className="flex items-start">
                     <div className="shrink-0">
-                      <div className="p-4 bg-slate-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-                        <i className="fa-brands fa-github text-white text-2xl"></i>
+                      <div className="p-4 bg-violet-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                      <i class="fa-solid fa-file-arrow-down text-white text-2xl"></i>
                       </div>
                     </div>
                     <div className="grow ml-6">
@@ -132,7 +132,7 @@ function Contact(props) {
                       <a
                         href={CV} download
                         target="_blank"
-                        className="text-slate-400 no-underline"
+                        className="text-cyan-500 no-underline"
                       >
                         CV
                       </a>
@@ -152,7 +152,7 @@ function Contact(props) {
                       <p className="font-bold mb-1">Email</p>
                       <a 
                       href="mailto:shaky411@googlemail.com.com"
-                      className="text-gray-500 no-underline">Email me</a>
+                      className="text-cyan-500 no-underline">Email me</a>
                     </div>
                   </div>
                 </div>
@@ -174,7 +174,7 @@ function Contact(props) {
                 <div className="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
                   <div className="flex align-start">
                     <div className="shrink-0">
-                      <div className="p-4 bg-blue-500 hover:bg-blue-800 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                      <div className="p-4 bg-blue-500 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
                         <i className="fa-brands fa-linkedin text-white text-2xl"></i>
                       </div>
                     </div>
@@ -183,7 +183,7 @@ function Contact(props) {
                       <a
                         href="https://www.linkedin.com/in/marcnorris1984"
                         target="_blank"
-                        className="text-slate-400 no-underline"
+                        className="text-cyan-500 no-underline"
                       >
                         LinkedIn Profile
                       </a>
