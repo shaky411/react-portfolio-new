@@ -4,11 +4,11 @@ import projects from "../../projects.json"
 
 function Gallery() {
   return (
-    <div className="m-5">
-      <h1>Projects Gallery</h1>
-      <p>
+    <div className="m-5 flex flex-col items-center">
+      <h1 className="mb-4">Projects Gallery</h1>
+      <h2 className="sm:text-2xl text-xl mb-5 mx-10 md:mx-0 font-normal text-black">
         Gallery displaying some of the projects I have been working on recently.
-      </p>
+      </h2>
 
       <section className="overflow-hidden text-neutral-700">
         <div className="container mx-auto mt-5 px-5 py-2 lg:px-32 lg:pt-12">
