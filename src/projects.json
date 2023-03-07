@@ -5,7 +5,8 @@
     "tech": "TailwindCSS",
     "description": "This was a tutorial project I learnt from TraversyMedia",
     "image": "https://raw.githubusercontent.com/shaky411/Testimonials-Grid-Section/master/assets/images/Project_1.png",
-    "github": "https://github.com/shaky411/Testimonials-Grid-Section.git"
+    "github": "https://github.com/shaky411/Testimonials-Grid-Section.git",
+    "live": "https://shaky411.github.io/Testimonials-Grid-Section/"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "tech": "CSS",
     "description": "Product card challenge taken from Frontend Mentor",
     "image": "https://raw.githubusercontent.com/shaky411/Product-Card/master/images/Project_1.png",
-    "github": "https://github.com/shaky411/Product-Card.git"
+    "github": "https://github.com/shaky411/Product-Card.git",
+    "live": ""
   },
   {
     "id": 3,
@@ -21,33 +23,35 @@
     "tech": "Bootstrap",
     "description": "Personal portfolio built using Bootstrap and CSS Grid",
     "image": "https://raw.githubusercontent.com/shaky411/Bootstrap-Portfolio/master/images/Screenshots/Project_3.png",
-    "github": "https://github.com/shaky411/Bootstrap-Portfolio.git"
+    "github": "https://github.com/shaky411/Bootstrap-Portfolio.git",
+    "live": "https://shaky411.github.io/Bootstrap-Portfolio/"
   },
   {
     "id": 4,
     "name": "F1 Coding Quiz",
     "tech": "Javascript",
-    "description": "F1 quiz challenge built using JavaScript and CSS",
+    "description": "F1 Quiz Challenge application built using JavaScript and CSS",
     "image": "https://raw.githubusercontent.com/shaky411/F1-Quiz/master/assets/Project_4.png",
-    "github": "https://github.com/shaky411/F1-Quiz.git"
+    "github": "https://github.com/shaky411/F1-Quiz.git",
+    "live": "https://shaky411.github.io/F1-Quiz/"
   },
   {
     "id": 5,
     "name": "Password Generator",
     "tech": "Javascript",
-    "description": "Password generator application built using Javascript",
+    "description": "Password generator application built using JavaScript",
     "image": "https://raw.githubusercontent.com/shaky411/Password-Generator/master/images/Project_5.png",
-    "github": "https://github.com/shaky411/Password-Generator.git"
+    "github": "https://github.com/shaky411/Password-Generator.git",
+    "live": "https://shaky411.github.io/Password-Generator/"
   },
   {
     "id": 6,
     "name": "Food App",
     "tech": "Javascript | UIKit",
-    "description": "Recipe food search application buit wih UIKit and Javascript",
+    "description": "Recipe food search application buit wih UIKit and JavaScript",
     "image": "https://raw.githubusercontent.com/shaky411/Project-1/main/assets/screen%20capture/Project_6.png",
     "github": "https://github.com/shaky411/Project-1.git",
-    "pill": "TailwindCSS",
-    "pillColor": "bg-blue-500"
+    "live": "https://shaky411.github.io/Project-1/"
   }
   
 ]
