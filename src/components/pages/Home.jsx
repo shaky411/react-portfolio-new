@@ -1,5 +1,6 @@
 import React from "react";
 import myLogo from "../../assets/user-mjn.jpg";
+import myLogo1 from "../../assets/profile_image.jpg"
 import blob from "../../assets/blob.png"
 
 function Home() {
@@ -22,7 +23,7 @@ function Home() {
           </h1>
           <p className="mb-8 leading-relaxed mx-10 md:mx-0">
             Please join me on my journey into the world of Front End Development
-            and check out my current and past projects below.
+            and check out my portfolio.
           </p>
           <div className="flex justify-center">
             <a
@@ -41,9 +42,9 @@ function Home() {
         </div>
         <div className="lg:max-w-sm lg:w-full md:w-1/2 w-5/6">
           <img
-            className="object-cover object-center rounded-3xl shadow-xl hover:opacity-50"
+            className="object-cover object-center rounded-full shadow-2xl hover:shadow-indigo-500/70 hover:opacity-70"
             alt="hero"
-            src={myLogo}
+            src={myLogo1}
           />
           
         </div>
