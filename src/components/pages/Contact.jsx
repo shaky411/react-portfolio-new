@@ -174,6 +174,26 @@ function Contact(props) {
                 <div className="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
                   <div className="flex align-start">
                     <div className="shrink-0">
+                      <div className="p-4 bg-blue-400 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                      <i class="fa-brands fa-twitter text-white text-2xl"></i>
+                      </div>
+                    </div>
+                    <div className="grow ml-6">
+                      <p className="font-bold mb-1">Twitter</p>
+                      <a
+                        href="https://twitter.com/swiftgekko"
+                        target="_blank"
+                        className="text-cyan-500 no-underline"
+                      >
+                        Twitter Profile
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
+                  <div className="flex align-start">
+                    <div className="shrink-0">
                       <div className="p-4 bg-blue-500 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
                         <i className="fa-brands fa-linkedin text-white text-2xl"></i>
                       </div>
