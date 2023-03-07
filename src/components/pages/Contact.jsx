@@ -37,7 +37,7 @@ function Contact(props) {
         <section className="mb-32 text-gray-800">
           <div className="flex justify-center">
             <div className="text-center lg:max-w-3xl md:max-w-xl">
-              <h2 className="text-3xl font-bold mb-12 px-6">Contact Me</h2>
+              <h2 className="text-3xl font-semibold mb-12 px-6">Contact Me</h2>
             </div>
           </div>
 
@@ -108,11 +108,11 @@ function Contact(props) {
                       </div>
                     </div>
                     <div className="grow ml-6">
-                      <p className="font-bold mb-1">Github</p>
+                      <p className="font-semibold mb-1">Github</p>
                       <a
                         href="https://github.com/shaky411"
                         target="_blank"
-                        className="text-cyan-500 no-underline"
+                        className="text-cyan-500 font-light no-underline"
                       >
                         Github Profile
                       </a>
@@ -128,11 +128,11 @@ function Contact(props) {
                       </div>
                     </div>
                     <div className="grow ml-6">
-                      <p className="font-bold mb-1">Download my CV</p>
+                      <p className="font-semibold mb-1">Download my CV</p>
                       <a
                         href={CV} download
                         target="_blank"
-                        className="text-cyan-500 no-underline"
+                        className="text-cyan-500 font-light no-underline"
                       >
                         CV
                       </a>
@@ -149,10 +149,10 @@ function Contact(props) {
                       </div>
                     </div>
                     <div className="grow ml-6">
-                      <p className="font-bold mb-1">Email</p>
+                      <p className="font-semibold mb-1">Email</p>
                       <a 
                       href="mailto:shaky411@googlemail.com.com"
-                      className="text-cyan-500 no-underline">Email me</a>
+                      className="text-cyan-500 font-light no-underline">Email me</a>
                     </div>
                   </div>
                 </div>
@@ -165,8 +165,8 @@ function Contact(props) {
                       </div>
                     </div>
                     <div className="grow ml-6">
-                      <p className="font-bold mb-1">Call Me</p>
-                      <p className="text-gray-500">+1 234-567-89</p>
+                      <p className="font-semibold mb-1">Call Me</p>
+                      <p className="text-gray-500 font-light">+1 234-567-89</p>
                     </div>
                   </div>
                 </div>
@@ -179,11 +179,11 @@ function Contact(props) {
                       </div>
                     </div>
                     <div className="grow ml-6">
-                      <p className="font-bold mb-1">Twitter</p>
+                      <p className="font-semibold mb-1">Twitter</p>
                       <a
                         href="https://twitter.com/swiftgekko"
                         target="_blank"
-                        className="text-cyan-500 no-underline"
+                        className="text-cyan-500 font-light no-underline"
                       >
                         Twitter Profile
                       </a>
@@ -199,11 +199,11 @@ function Contact(props) {
                       </div>
                     </div>
                     <div className="grow ml-6">
-                      <p className="font-bold mb-1">LinkedIn</p>
+                      <p className="font-semibold mal mb-1">LinkedIn</p>
                       <a
                         href="https://www.linkedin.com/in/marcnorris1984"
                         target="_blank"
-                        className="text-cyan-500 no-underline"
+                        className="text-cyan-500 font-light no-underline"
                       >
                         LinkedIn Profile
                       </a>

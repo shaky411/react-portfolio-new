@@ -1,30 +1,27 @@
 [
   {
     "id": 1,
-    "question": "About Me",
-    "tech": "TailwindCSS",
-    "description": "This was a tutorial project I learnt from TraversyMedia",
-    "image": "https://raw.githubusercontent.com/shaky411/Testimonials-Grid-Section/master/assets/images/Project_1.png",
-    "github": "https://github.com/shaky411/Testimonials-Grid-Section.git",
-    "live": "https://shaky411.github.io/Testimonials-Grid-Section/"
+    "subTitle": "About Me",
+    "title": "Marc Norris",
+    "description": "Born & raised in Bristol UK and the place I still call home today."
   },
   {
     "id": 2,
-    "name": "Currently Learning",
-    "tech": "CSS",
-    "description": "Product card challenge taken from Frontend Mentor",
-    "image": "https://raw.githubusercontent.com/shaky411/Product-Card/master/images/Project_1.png",
-    "github": "https://github.com/shaky411/Product-Card.git",
-    "live": ""
+    "subTitle": "Currently Learning",
+    "title": "Technologies",
+    "description": "Below are some of the core technologies I've been learning over the last 16 weeks."
   },
   {
     "id": 3,
-    "name": "What's Next?",
-    "tech": "Bootstrap",
-    "description": "Personal portfolio built using Bootstrap and CSS Grid",
-    "image": "https://raw.githubusercontent.com/shaky411/Bootstrap-Portfolio/master/images/Screenshots/Project_3.png",
-    "github": "https://github.com/shaky411/Bootstrap-Portfolio.git",
-    "live": "https://shaky411.github.io/Bootstrap-Portfolio/"
+    "subTitle": "Key Skills",
+    "title": "TailwindCSS",
+    "description": "I have lots of key skills when it comes to front end development, this is my favorite."
+  },
+  {
+    "id": 4,
+    "subTitle": "What Next?",
+    "title": "My Goals",
+    "description": "I would like to gain enough experience to secure a position as a fulltime front end web dev."
   }
 ]
 
