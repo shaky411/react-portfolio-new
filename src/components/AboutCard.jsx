@@ -1,15 +1,15 @@
 import React from "react";
 
-function showBrowserWidth() {
-  const width =
-    window.innerWidth ||
-    document.documentElement.clientWidth ||
-    document.body.clientWidth
+// function showBrowserWidth() {
+//   const width =
+//     window.innerWidth ||
+//     document.documentElement.clientWidth ||
+//     document.body.clientWidth
 
-  document.querySelector('h5').innerHTML = `Width: ${width}`
-}
-window.onload = showBrowserWidth
-window.onresize = showBrowserWidth
+//   document.querySelector('h5').innerHTML = `Width: ${width}`
+// }
+// window.onload = showBrowserWidth
+// window.onresize = showBrowserWidth
 
 function AboutCard(props) {
 return (
@@ -29,11 +29,6 @@ return (
       <div className="flex-col mb-4 spacy-y-3 text-center md:text-left p-3">
         <p className="text-5xl font-bold">{props.title}</p>
         <p className="text-sm font-light text-gray-400">{props.description}</p>
-        <div>
-          <div className="inline-block px-3 mt-2 py-1 text-sm text-white font-bold bg-slate-500 rounded-full shadow-md">
-            JavaScript
-          </div>
-        </div>
       </div>
     </div>
   </div>
