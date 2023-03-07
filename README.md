@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![licence](https://img.shields.io/badge/licence-MIT-yellow.svg)
 
-## Available Scripts
+## My React Site:
 
-In the project directory, you can run:
+Welcome to my portfolio. This portfolio was built using react. I used a mobile first approach building this site to ensure that it's fully responsive on all device types.
 
-### `npm start`
+I have utilised React-Router-DOM which enables me to implement dynamic routing.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+All of the styling on this site have been implemented using Tailwind CSS. Tailwind CSS is a utility first CSS framework. This enables me to build the skeleton of my site with HTML and style inline.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
 
-### `npm test`
+**Table of Contents:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [Installation](#installation)
+* [Usage](#usage)
+* [Screenshots](#screenshots)
+* [Credits](#credits)
+* [License](#license)
 
-### `npm run build`
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Instructions**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Please visit my portfolio site: https://shaky411.github.io/react-portfolio-new/
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+N/A
 
-## Learn More
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Alt text](src/assets/screenshots/1SCR-20230307-vgk.jpeg)
 
-### Code Splitting
+![Alt text](src/assets/screenshots/2SCR-20230307-vgq.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Alt text](src/assets/screenshots/3SCR-20230307-vgz.png)
 
-### Analyzing the Bundle Size
+![Alt text](src/assets/screenshots/4SCR-20230307-vh6.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<br>
 
-### Making a Progressive Web App
+## Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Traversy Media: Many of my core Tailwind skills are thanks to the amazing learning content created by Traversy Media.
 
-### Advanced Configuration
+* Front End Mentor: Some of my projects displyed within my portfolio were initially created by Front End Mentor.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<br>
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* _This application has the MIT Licence_
+For more info, please go to the [licence description](https://opensource.org/license/mit/)
