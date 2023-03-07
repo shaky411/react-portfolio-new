@@ -21,7 +21,7 @@ function About() {
     <section id="about" className="m-5">
       <section id="buttons" className="flex flex-col justify-center text-center pt-2">
         <h1 className="mb-4">About Me!</h1>
-        <h2 className="title-font sm:text-3xl text-2xl mb-5 mx-10 md:mx-0 font-normal text-black">
+        <h2 className="sm:text-2xl text-2xl mb-5 mx-10 md:mx-0 font-normal text-black">
           Find out more about my journey!
           <br className="hidden lg:inline-block" />What I'm learning and where I plan to go next.
         </h2>
