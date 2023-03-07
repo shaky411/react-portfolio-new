@@ -31,9 +31,10 @@ export default function ProjectCard(props) {
                   <a
                     href={props.github}
                     target="_blank"
-                    className="text-black"
-                  ><i className="fa-brands fa-square-github text-2xl mt-2 hover:text-indigo-500"></i></a>
+                    className="text-indigo-500"
+                  ><i className="fa-brands fa-square-github text-2xl mt-2 mb-3 hover:text-pink-500"></i></a>
                 </div>
+                <a href={props.live} target="_blank" className="bg-slate-500 hover:bg-indigo-500 p-2 px-3 rounded-full text-white no-underline shadow-md">Live Site</a>
             </div>
           </div>
         </div>
