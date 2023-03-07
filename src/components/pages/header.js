@@ -38,8 +38,18 @@ function Header() {
         </li>
         <li className="nav-item">
           <NavLink
-            to="/react-portfolio-new/contact"
+            to="/react-portfolio-new/gallery"
             end
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            Gallery
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink
+            to="/react-portfolio-new/contact"
             className={({ isActive }) =>
               isActive ? "nav-link active" : "nav-link"
             }
@@ -47,27 +57,32 @@ function Header() {
             Contact
           </NavLink>
         </li>
-        <li className="nav-item">
-          <NavLink
-            to="/react-portfolio-new/gallery"
-            className={({ isActive }) =>
-              isActive ? "nav-link active" : "nav-link"
-            }
+        {/* <li className="nav-item dropdown">
+          <a
+            className="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownMenuLink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
           >
-            Gallery
-          </NavLink>
-          
-        </li>
-        <li className="nav-item dropdown">
-        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
-        </a>
-        <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a className="dropdown-item" href="#">Action</a>
-          <a className="dropdown-item" href="#">Another action</a>
-          <a className="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
+            Dropdown link
+          </a>
+          <div
+            className="dropdown-menu"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            <a className="dropdown-item" href="#">
+              Action
+            </a>
+            <a className="dropdown-item" href="#">
+              Another action
+            </a>
+            <a className="dropdown-item" href="#">
+              Something else here
+            </a>
+          </div>
+        </li> */}
       </ul>
     </header>
   );
