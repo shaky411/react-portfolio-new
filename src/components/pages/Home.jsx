@@ -1,6 +1,7 @@
 import React from "react";
 import myLogo from "../../assets/user-mjn.jpg";
 import myLogo1 from "../../assets/profile_image.jpg";
+import newLogo from "../../assets/new_logo3.png"
 import blob from "../../assets/blob.png";
 import { Link } from "react-router-dom";
 
@@ -42,9 +43,9 @@ function Home() {
         </div>
         <div className="lg:max-w-sm lg:w-full md:w-1/2 w-5/6">
           <img
-            className="object-cover object-center rounded-full shadow-2xl hover:shadow-indigo-500/70 hover:opacity-70"
+            className="object-cover object-center bg-none rounded-full shadow-xl hover:shadow-indigo-500/70 hover:opacity-70"
             alt="hero"
-            src={myLogo1}
+            src={newLogo}
           />
         </div>
       </div>
