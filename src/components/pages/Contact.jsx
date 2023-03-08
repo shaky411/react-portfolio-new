@@ -88,7 +88,7 @@ function Contact(props) {
                     ></textarea>
                     <button
                       type="submit"
-                      className="bg-indigo-500 hover:bg-indigo-700 p-2 text-white rounded shadow mt-2"
+                      className="bg-indigo-500 hover:bg-pink-800 p-2 text-white rounded shadow mt-2 transition-colors-shadow duration-700"
                     >
                       Send Message
                     </button>
