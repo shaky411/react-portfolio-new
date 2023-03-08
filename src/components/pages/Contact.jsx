@@ -34,10 +34,10 @@ function Contact(props) {
   return (
     <div className="m-5">
       <div className="container my-24 px-6 mx-auto">
-        <section className="mb-32 text-gray-800">
+        <section className="mb-32 text-slate-500">
           <div className="flex justify-center">
             <div className="text-center lg:max-w-3xl md:max-w-xl">
-              <h2 className="text-3xl font-semibold mb-12 px-6">Contact Me</h2>
+              <h2 className="text-3xl font-semibold mb-12 px-6">Get in Touch</h2>
             </div>
           </div>
 
@@ -51,12 +51,12 @@ function Contact(props) {
                 <div className="absolute top-40 -left-1 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-40 animate-blob animation-delay-2000"></div>
                 <div className="absolute top-30 left-20 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-40 animate-blob animation-delay-4000"></div>
                 </div>
-                <div className="container bg-slate-100 opacity-70 p-4 rounded-xl shadow-xl shadow-indigo-500/30 border relative">
-                  <h2 className="text-center text-black">Get in touch</h2>
+                <div className="container bg-slate-100 bg-opacity-40 p-4 rounded-xl shadow-xl shadow-indigo-500/30 border relative">
+                  <h2 className="text-center text-slate-500">Send me a message!</h2>
                   <form
                     ref={form}
                     onSubmit={sendEmail}
-                    className="flex flex-col items-center justify-center"
+                    className="flex flex-col items-center justify-center m-2"
                   >
                     <input
                       className="bg-white m-2 p-2 rounded shadow-inner border"
@@ -88,7 +88,7 @@ function Contact(props) {
                     ></textarea>
                     <button
                       type="submit"
-                      className="bg-indigo-500 hover:bg-pink-800 p-2 text-white rounded shadow mt-2 transition-colors-shadow duration-700"
+                      className="bg-indigo-500 hover:bg-pink-500 p-2 text-white rounded hover:shadow-md mt-2 transition-colors-shadow duration-700"
                     >
                       Send Message
                     </button>
