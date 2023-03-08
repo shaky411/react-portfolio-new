@@ -29,13 +29,13 @@ function Home() {
 
           <div className="flex justify-center">
             <Link className="no-underline" to="./Projects">
-              <button className="no-underline inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 rounded hover:shadow-md text-lg">
+              <button className="no-underline inline-flex transition-colors-shadow duration-700 text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 rounded hover:shadow-md text-lg">
                 My Projects
               </button>
             </Link>
 
             <Link className="no-underline" to="./About">
-              <button className="no-underline ml-4 inline-flex text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded hover:shadow-md text-lg">
+              <button className="no-underline ml-4 inline-flex transition-colors-shadow duration-700 text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded hover:shadow-md text-lg">
                 About Me
               </button>
             </Link>
@@ -43,7 +43,7 @@ function Home() {
         </div>
         <div className="lg:max-w-sm lg:w-full md:w-1/2 w-5/6">
           <img
-            className="object-cover object-center bg-none rounded-full shadow-xl hover:shadow-indigo-500/70 hover:opacity-70"
+            className="object-cover object-center bg-none rounded-full shadow-xl transition-colors-shadow duration-700 hover:shadow-indigo-500/70 hover:opacity-60"
             alt="hero"
             src={newLogo}
           />
