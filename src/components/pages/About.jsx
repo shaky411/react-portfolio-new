@@ -4,6 +4,7 @@ import Button from "./style-components/button";
 import AboutCard from "../AboutCard";
 import about from "../../about.json"
 import TechCard from "../TechCard"
+import AboutMeCard from "../AboutMeCard";
 
 
 function About() {
@@ -21,12 +22,10 @@ function About() {
 
         {/* Put about cards here */}
         <div className="flex flex-wrap items-center rounded-2xl justify-center mx-5 p-2 mb-4 bg-slate-100">
-        <AboutCard subTitle={about[0].subTitle} title={about[0].title} description={about[0].description} />
+        <AboutMeCard subTitle={about[0].subTitle} title={about[0].title} description={about[0].description} />
         <TechCard subTitle={about[1].subTitle} title={about[1].title} description={about[1].description} />
         <AboutCard subTitle={about[2].subTitle} title={about[2].title} description={about[2].description} />
         <AboutCard subTitle={about[3].subTitle} title={about[3].title} description={about[3].description} />
-        
-        
         
         </div>
         
