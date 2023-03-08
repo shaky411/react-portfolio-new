@@ -28,7 +28,7 @@ function AboutMeCard(props) {
               {props.description}
             </p>
             <div>
-              <i className="fa-solid fa-id-card-clip text-slate-500 hover:text-orange-500 text-2xl m-1"></i>
+              <i className="fa-solid fa-id-card-clip text-slate-500 hover:text-orange-500 text-2xl"></i>
             </div>
           </div>
         </div>
