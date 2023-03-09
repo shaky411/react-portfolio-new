@@ -8,7 +8,7 @@ Welcome to my portfolio. This portfolio was built using react. I used a mobile f
 
 I have utilised React-Router-DOM which enables me to implement dynamic routing.
 
-All of the styling on this site have been implemented using Tailwind CSS. Tailwind CSS is a utility first CSS framework. This enables me to build the skeleton of my site with HTML and style inline.
+All of the styling on this site has been implemented using Tailwind CSS. Tailwind CSS is a utility first CSS framework. This enables me to build the skeleton of my site with HTML and style inline.
 
 <br>
 
