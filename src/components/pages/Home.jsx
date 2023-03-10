@@ -1,7 +1,7 @@
 import React from "react";
 import myLogo from "../../assets/user-mjn.jpg";
 import myLogo1 from "../../assets/profile_image.jpg";
-import newLogo from "../../assets/new_logo3.png"
+import newLogo from "../../assets/new_logo3.png";
 import blob from "../../assets/blob.png";
 import { Link } from "react-router-dom";
 
@@ -40,7 +40,13 @@ function Home() {
               </button>
             </Link>
           </div>
+
+          
+
+
+
         </div>
+
         <div className="lg:max-w-sm lg:w-full md:w-1/2 w-5/6">
           <img
             className="object-cover object-center bg-none rounded-full shadow-xl transition-colors-shadow duration-700 hover:shadow-indigo-500/70 hover:opacity-60"

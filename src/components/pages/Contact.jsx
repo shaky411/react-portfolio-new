@@ -208,6 +208,31 @@ function Contact(props) {
                         LinkedIn Profile
                       </a>
                     </div>
+
+
+
+                  </div>
+                </div>
+                <div className="mb-12 grow-0 shrink-0 basis-auto w-full lg:w-6/12 px-3 lg:px-6">
+                  <div className="flex align-start">
+                    <div className="shrink-0">
+                      <div className="bg-slate-500 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
+                        <p className="text-white mb-0">R11</p>
+                      </div>
+                    </div>
+                    <div className="grow ml-6">
+                      <p className="font-semibold mal mb-1">Room11</p>
+                      <a
+                        href="https://room11.tech"
+                        target="_blank"
+                        className="text-cyan-500 font-light no-underline"
+                      >
+                        room11.tech
+                      </a>
+                    </div>
+
+
+
                   </div>
                 </div>
               </div>
@@ -220,3 +245,5 @@ function Contact(props) {
 }
 
 export default Contact;
+
+
