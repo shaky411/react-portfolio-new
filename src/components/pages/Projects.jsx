@@ -13,10 +13,11 @@ function Projects() {
     <div className="m-5">
       <section id="buttons" className="flex flex-col justify-center text-center pt-2">
         <h1 className="mb-4">My Projects</h1>
-        <h2 className="sm:text-2xl text-xl mb-5 mx-10 md:mx-0 font-normal text-black">
+        <h2 className="sm:text-2xl text-xl mb-4 mx-10 md:mx-0 font-normal text-black">
           Check out my current & past projects below!
           <br className="hidden lg:inline-block" />Click on the Github links to learn more.
         </h2>
+        <p className="italic text-gray-400">Many of these projects were part of a recent bootcamp, some are still WIP.</p>
       </section>
 
     {/* Project Cards */}
