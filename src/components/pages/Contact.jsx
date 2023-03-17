@@ -111,7 +111,7 @@ function Contact(props) {
                       <p className="font-semibold mb-1">Github</p>
                       <a
                         href="https://github.com/shaky411"
-                        target="_blank"
+                        target="_blank" rel="noopener noreferrer"
                         className="text-cyan-500 font-light no-underline"
                       >
                         Github Profile
@@ -124,14 +124,14 @@ function Contact(props) {
                   <div className="flex items-start">
                     <div className="shrink-0">
                       <div className="p-4 bg-violet-600 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-                      <i class="fa-solid fa-file-arrow-down text-white text-2xl"></i>
+                      <i className="fa-solid fa-file-arrow-down text-white text-2xl"></i>
                       </div>
                     </div>
                     <div className="grow ml-6">
                       <p className="font-semibold mb-1">Download my CV</p>
                       <a
                         href={CV} download
-                        target="_blank"
+                        target="_blank" rel="noopener noreferrer"
                         className="text-cyan-500 font-light no-underline"
                       >
                         CV
@@ -175,14 +175,14 @@ function Contact(props) {
                   <div className="flex align-start">
                     <div className="shrink-0">
                       <div className="p-4 bg-blue-400 rounded-md shadow-md w-14 h-14 flex items-center justify-center">
-                      <i class="fa-brands fa-twitter text-white text-2xl"></i>
+                      <i className="fa-brands fa-twitter text-white text-2xl"></i>
                       </div>
                     </div>
                     <div className="grow ml-6">
                       <p className="font-semibold mb-1">Twitter</p>
                       <a
                         href="https://twitter.com/swiftgekko"
-                        target="_blank"
+                        target="_blank" rel="noopener noreferrer"
                         className="text-cyan-500 font-light no-underline"
                       >
                         Twitter Profile
@@ -202,7 +202,7 @@ function Contact(props) {
                       <p className="font-semibold mal mb-1">LinkedIn</p>
                       <a
                         href="https://www.linkedin.com/in/marcnorris1984"
-                        target="_blank"
+                        target="_blank" rel="noopener noreferrer"
                         className="text-cyan-500 font-light no-underline"
                       >
                         LinkedIn Profile
@@ -224,7 +224,7 @@ function Contact(props) {
                       <p className="font-semibold mal mb-1">Room11</p>
                       <a
                         href="https://room11.tech"
-                        target="_blank"
+                        target="_blank" rel="noopener noreferrer"
                         className="text-cyan-500 font-light no-underline"
                       >
                         room11.tech

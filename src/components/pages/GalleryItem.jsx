@@ -7,7 +7,7 @@ export default function GalleryItem(props) {
               <div className="w-full p-2 md:p-2">
                 <img
                   alt={props.name}
-                  className="block h-full w-full rounded-lg object-cover object-center"
+                  className="block h-full w-full rounded-lg object-cover object-center hover:scale-110 transition-scale duration-500"
                   src={props.image}
                 />
               </div>

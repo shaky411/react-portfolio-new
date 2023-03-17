@@ -21,7 +21,7 @@ function About() {
       <div className="flex flex-col justify-center items-center md:flex-row">
 
         {/* Put about cards here */}
-        <div className="flex flex-wrap items-center rounded-2xl justify-center mx-5 p-2 mb-4 bg-slate-100">
+        <div className="flex flex-wrap items-stretch rounded-2xl justify-center mx-5 p-2 mb-4 bg-slate-100">
         <AboutMeCard subTitle={about[0].subTitle} title={about[0].title} description={about[0].description} />
         <TechCard subTitle={about[1].subTitle} title={about[1].title} description={about[1].description} />
         <AboutCard subTitle={about[2].subTitle} title={about[2].title} description={about[2].description} />
