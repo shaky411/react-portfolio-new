@@ -1,6 +1,6 @@
 import React from "react";
-import myLogo from "../../assets/user-mjn.jpg";
-import Button from "./style-components/button";
+// import myLogo from "../../assets/user-mjn.jpg";
+// import Button from "./style-components/button";
 import AboutCard from "../AboutCard";
 import about from "../../about.json"
 import TechCard from "../TechCard"

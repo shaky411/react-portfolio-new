@@ -5,8 +5,8 @@ import projects from "../../projects.json"
 // Props variables
 
 let pill = "TailwindCSS"
-let pill1 = "JavaScript"
-let pill2 = "CSS"
+// let pill1 = "JavaScript"
+// let pill2 = "CSS"
 
 function Projects() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import pLogo1 from "../../src/assets/Project_1.png";
+// import pLogo1 from "../../src/assets/Project_1.png";
 
 // function showBrowserWidth() {
 //   const width =

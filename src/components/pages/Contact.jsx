@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { Link, Route, Routes } from "react-router-dom";
-import About from "./About";
+// import { Link, Route, Routes } from "react-router-dom";
+// import About from "./About";
 import CV from "../../assets/Sample_CV.pdf"
 
 function Contact(props) {

@@ -16,7 +16,7 @@ function Header() {
           </svg>
         </button>
       </div> */}
-      <ul className="nav nav-tabs">
+      <ul className="nav">
         <li className="nav-item">
           <NavLink
             to="/react-portfolio-new/"
@@ -25,7 +25,7 @@ function Header() {
               isActive ? "nav-link active" : "nav-link"
             }
           >
-            Home
+            {/* Home */}
           </NavLink>
         </li>
         <li className="nav-item">
@@ -35,7 +35,7 @@ function Header() {
               isActive ? "nav-link active" : "nav-link"
             }
           >
-            About
+            {/* About */}
           </NavLink>
         </li>
         <li className="nav-item">
@@ -45,7 +45,7 @@ function Header() {
               isActive ? "nav-link active" : "nav-link"
             }
           >
-            Projects
+            {/* Projects */}
           </NavLink>
         </li>
         <li className="nav-item">
@@ -56,7 +56,7 @@ function Header() {
               isActive ? "nav-link active" : "nav-link"
             }
           >
-            Gallery
+            {/* Gallery */}
           </NavLink>
         </li>
         <li className="nav-item">
@@ -66,7 +66,7 @@ function Header() {
               isActive ? "nav-link active" : "nav-link"
             }
           >
-            Contact
+            {/* Contact */}
           </NavLink>
         </li>
       </ul>
